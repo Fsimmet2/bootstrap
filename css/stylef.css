@@ -1,0 +1,13 @@
+
+.contact , .blog {
+	background-color: #F6F6F6;
+}
+
+footer {
+	background-color: black;
+	color: white;
+}
+
+#resize {
+	resize: none;
+}
