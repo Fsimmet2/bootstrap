@@ -1,4 +1,6 @@
-
+body {
+	background-color: blue;
+}
 .contact , .blog {
 	background-color: #F6F6F6;
 }
