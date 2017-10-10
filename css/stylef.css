@@ -31,7 +31,9 @@ textarea.form-control {
 }
 
 
-
+.bold {
+	font-weight: bold;
+}
 .bord {
 	border-top: 1px solid grey;
 	padding: 10px;
@@ -43,6 +45,11 @@ textarea.form-control {
 	height: 50px;
 }
 
+.clients {
+	background-color: white;
+	padding-left: 7%;
+	padding-right: 7%;
+}
 .contact {
 	font-family: 'Work Sans', sans-serif;
 
