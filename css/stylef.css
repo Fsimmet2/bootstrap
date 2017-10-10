@@ -35,6 +35,9 @@ textarea.form-control {
 	height: 150px;
 }
 
+.bg {
+	background-color: white;
+}
 
 .bold {
 	font-weight: bold;
@@ -54,6 +57,8 @@ textarea.form-control {
 	background-color: white;
 	padding-left: 7%;
 	padding-right: 7%;
+	padding-bottom: 40px;
+	padding-top: 40px;
 }
 .contact {
 	font-family: 'Work Sans', sans-serif;
@@ -84,7 +89,7 @@ textarea.form-control {
 }
 
 .img {
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 	padding-right: 5px;
 	padding-left: 5px;
 }
@@ -99,6 +104,18 @@ textarea.form-control {
 	background-image: url('../images/focitation.png');
 	color: white;
 	height: 300px;
+}
+
+.tex {
+	font-family: 'Work Sans';
+}
+.ti {
+	font-family: 'Playfair Display';
+	font-weight: bold;
+}
+
+.date {
+	font-family: 'Work Sans';
 }
 
 #btm {
