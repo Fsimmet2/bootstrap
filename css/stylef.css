@@ -1,13 +1,74 @@
 body {
+	font-family: 'Playfair Display', serif;
 	background-color: blue;
+	
+	padding: 0;
+	margin: 0;
+}
+
+footer {
+	background-color: #141414;
+	color: white;
+}
+
+#titre {
+	font-family: 'Playfair Display', serif;
+	font-weight: bold;
+}
+
+h3 {
+	margin-bottom: 35px;
+}
+
+i {
+	margin: 5px;
+}
+textarea.form-control {
+	height: 150px;
+}
+
+
+
+.bord {
+	border-top: 1px solid grey;
+	padding: 10px;
+}
+
+.btn-default {
+	background-color: #2A2A2A;
+	color: white;
+	height: 50px;
+}
+
+.contact {
+	font-family: 'Work Sans', sans-serif;
+
+	border-top: 1px solid #EBEBEB;
+	padding-top: 30px;
 }
 .contact , .blog {
 	background-color: #F6F6F6;
 }
 
-footer {
-	background-color: black;
-	color: white;
+.copy {
+	text-align: center;
+}
+
+.form-control {
+	border-radius: 0;
+}
+
+.form-group {
+	margin-bottom: 0;
+}
+
+
+
+
+
+#btm {
+	margin-bottom: 80px;
+	margin-top: 15px;
 }
 
 #resize {

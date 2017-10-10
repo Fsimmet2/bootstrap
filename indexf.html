@@ -4,6 +4,12 @@
 	<title></title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/stylef.css">
 </head>
@@ -11,8 +17,10 @@
 
 <!-- Section Testimonials -->
 	<section class="container-fluid">
-		<q>Outstanding job and exceeded all expectations. It was a pleasure to work with them on a sizable first project and am looking forward to start the next one asap.</q>
-		<cite>Michael Hopkins</cite>
+		<div class="container">
+			<q>Outstanding job and exceeded all expectations. It was a pleasure to work with them on a sizable first project and am looking forward to start the next one asap.</q>
+			<cite>Michael Hopkins</cite>
+		</div>
 	</section>
 
 <!-- Section Clients -->
@@ -22,47 +30,50 @@
 
 <!-- Section Blog -->
 	<section class="blog container-fluid">
-		<h2> Latest Blog </h2>
-		<p>Donec orci sem, pretium ac dolor et, faucibus faucibus mauris. Etiam,pellentesque faucibus. Vestibulum gravida volutpat ipsum non ultrices.</p>
+		<div class="container">
+			<h2> Latest Blog </h2>
+			<p>Donec orci sem, pretium ac dolor et, faucibus faucibus mauris. Etiam,pellentesque faucibus. Vestibulum gravida volutpat ipsum non ultrices.</p>
+		</div>
 	</section>
 
 <!-- Section Formulaire -->
 	<section class="contact container-fluid">
-		<div class="row">
-			<div class="col-md-5">
-			<h2> Contact </h2>
+		<div class="container row">
+			<div class="col-md-5 col-lg-5">
+			<h2 id="titre"> Contact Info: </h2>
+			<address>
 				<p>Praesent interdum congue mauris, et fringilla lacus pel vitae. Quisque nisl mauris, aliquam eu ultrices vel, conse vitae sapien at imperdiet risus. Quisque cursus risus id. fermentum, in auctor quam consectetur.</p>
 				<p>Address:  10111 Santa Monica Boulevard, LA</p>
 				<p>Phone:  +44 987 065 908</p>
 				<p>Email:  info@Example.com</p>
 				<p>Fax:  +44 987 065 909</p>
+				</address>
 			</div>
 
-			<div class="col-md-7"> 
+			<div class="col-md-7 col-lg-7"> 
 				<form method="post" action="form.php">
-					<div class="row">
-  						<div class="col-md-6">
+					<div class="form-group row">
+  						<div class="col-md-6 col-lg-6">
    							<label for="name"></label>
    							<input type="name" class="form-control" placeholder="Your Name">
   						</div>
-  						<div class="col-md-6">
+  						<div class="col-md-6 col-lg-6">
    							<label for="email"></label>
    							<input type="email" class="form-control" placeholder="Your Email">
    						</div>
    					</div>
 
-
-  					<div class="form">
+  					<div class="form-group">
    						<label for="title"></label>
     					<input type="title" class="form-control" placeholder="Your Title">
   					</div>
 
-  					<div class="form">
+  					<div class="form-group">
   						<label for="comment"></label>
   						<textarea type="texte" class="form-control" placeholder="Your Comment" id="resize"></textarea>
   					</div>
 
-  					<div class="form">
+  					<div class="form-group" id="btm">
  						<button type="submit" class="btn btn-default">SEND MESSAGE</button>
  					</div>
 				</form>
@@ -72,23 +83,44 @@
 
 <!-- Footer -->
 	<footer class="container-fluid">
-		<div class="row">
+		<div class="container row">
 			<section class="col-md-4">
 				<h3>About Us</h3>
 				<p>Aenean mattis augue in arcu tempor bibendum. Nam euismod facilisis magna, quis pharetra turpis molestie eu. Integer feugiat arcu sit amet leo ullamcorper feugiat efficitur.</p>
+				<i class="fa fa-facebook" aria-hidden="true"></i>
+				<i class="fa fa-twitter" aria-hidden="true"></i>
+				<i class="fa fa-google-plus" aria-hidden="true"></i>
+				<i class="fa fa-behance" aria-hidden="true"></i>
+				<i class="fa fa-pinterest" aria-hidden="true"></i>
+				<i class="fa fa-instagram" aria-hidden="true"></i>
 			</section>
 
 			<section class="col-md-4">
 				<h3>Latest Twits</h3>
-				<p>Duis eget finibus nibh. Vivamus sagittis vulputate risus ac tincidunt.</p>
-				<p>Nam semper tortor sit amet arcu malesu ada, a sagittis tellus facilisis.</p>
-				<p>Etiam cursus, tortor id pretium tincidunt, justo leo porta magna.</p>
+					<i class="fa fa-twitter" aria-hidden="true"></i><p>Duis eget finibus nibh. Vivamus sagittis vulputate risus ac tincidunt.</p>
+					<i class="fa fa-twitter" aria-hidden="true"></i><p>Nam semper tortor sit amet arcu malesu ada, a sagittis tellus facilisis.</p>
+					<i class="fa fa-twitter" aria-hidden="true"></i><p>Etiam cursus, tortor id pretium tincidunt, justo leo porta magna.</p>
 			</section>
 
 			<section class="col-md-4">
 				<h3>Instagram</h3>
+					<div class="container row">
+						<img src="" class="col-md-3">
+						<img src="" class="col-md-3">
+						<img src="" class="col-md-3">
+						<img src="" class="col-md-3">
+					</div>
+					<div class="container row">
+						<img src="" class="col-md-3">
+						<img src="" class="col-md-3">
+						<img src="" class="col-md-3">
+						<img src="" class="col-md-3">
+					</div>
 			</section>
 		</div>
+		<section class="bord">
+			<p class="copy">© 2016. Created by Unvab</p>
+		</section>
 	</footer>
 		
 </body>
