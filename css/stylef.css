@@ -39,6 +39,9 @@ textarea.form-control {
 	height: 150px;
 }
 
+.abs {
+	position: absolute;
+}
 .bg {
 	background-color: white;
 	padding: 10px
@@ -112,6 +115,15 @@ textarea.form-control {
 	font-weight: regular;
 }
 
+.nat {
+	position: relative;
+  top: -48px;
+  left: 10px;
+  font-family: 'Work Sans';
+  border: none;
+  height: 40px;
+  color: white;
+}
 .p {
 	font-family: 'Work Sans';
 }
