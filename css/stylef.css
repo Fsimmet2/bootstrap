@@ -37,6 +37,12 @@ textarea.form-control {
 
 .bg {
 	background-color: white;
+	padding: 10px
+}
+
+.blog {
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 .bold {
@@ -51,6 +57,7 @@ textarea.form-control {
 	background-color: #2A2A2A;
 	color: white;
 	height: 50px;
+	border-radius: 0;
 }
 
 .clients {
@@ -100,6 +107,20 @@ textarea.form-control {
 	font-family: 'Work Sans';
 }
 
+.plb {
+	padding-bottom: 30px;
+	font-family: 'Playfair Display';
+	font-weight: bold;
+}
+
+.plb2 {
+	font-family: 'Work Sans';
+	padding-bottom: 30px;
+}
+
+.qt {
+	font-family: 'Playfair Display';
+}
 .test {
 	background-image: url('../images/focitation.png');
 	color: white;
@@ -110,7 +131,9 @@ textarea.form-control {
 	font-family: 'Work Sans';
 }
 .ti {
+	padding-top: 30px;
 	font-family: 'Playfair Display';
+	font-size: 1.3em;
 	font-weight: bold;
 }
 
