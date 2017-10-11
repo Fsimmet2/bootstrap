@@ -7,25 +7,109 @@
   <title>Bootstrap</title>
   <link rel="stylesheet" href="css/bootstrap.min.css" >
   <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400i,700" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container-fluid">
-      <div class="navbar-header col-6">
+  <header class="container_fluid">
+    <div class="row" id="nav">
+    <nav class="navbar navbar-default col-md-12" >
+      <div class="navbar-header pull-left">
         <a class="navbar-brand" href="#">
           <img alt="logo" src="images/logo.png">
         </a>
       </div>
-      <ul class="nav navbar-nav navbar-right col-6">
+      <ul class="nav navbar-nav navbar-right pull-right">
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
             <img alt="burger" src="images/burger.png">
           </a>
+          <ul class="dropdown-menu">
+            <li><a href="#about">About</a></li>
+            <li><a href="#numbers">Numbers</a></li>
+            <li><a href="#best_projects">Best Projects</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#clients">Clients</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+            <li><a href="#footer">Footer</a></li>
+          </ul>
         </li>
       </ul>
-    </div>
     </nav>
+    </div>
   </header>
+  <section class="container_fluid">
+    <div class="row" id="banner">
+      <div class="col-md-12">
+        <p class="text-center" id="nba"><small>NEW BRANDING AGENCY</small></p>
+        <h1 class="text-center" id="text">We are about to change the way<br/><em>you publish on web</em></h1>
+      </div>
+      <div class="col-md-12 text-center" id="icon_fleche">
+        <button type="button" class="btn btn-circle btn-lg"><span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></button>
+      </div>
+    </div>
+  </section>
+  <section class="container_fluid">
+    <div class="row" id="about">
+        <h2 class="text-center aoa">About Our Agency</h2>
+        <p class="text-center text_aoa">We are a new design studio based in USA. We have over 20 years of combined experience, and know<br/>
+          a thing or two about designing websites and mobile apps. Clever use of technology<br/>
+          and lean processes enable us to work faster and smarter.</p>
+      <div class="col-md-12 text-center" id="sign">
+        <img alt="signature" src="images/signature.png">
+      </div>
+    </div>
+  </section>
+  <section class="container_fluid">
+    <div class="row" id="numbers">
+      <div class="col-md-3 col-sm-6 numbers_1">
+        <img alt="1" src="images/numbers_1.png" class="pull-left img_nb">
+        <h4>548</h4><h5>PROJECTS COMPLETED</h5>
+      </div>
+      <div class="col-md-3 col-sm-6 numbers_1">
+        <img alt="2" src="images/numbers_2.png" class="pull-left img_nb">
+        <h4>1465</h4><h5>WORKING HOURS</h5>
+      </div>
+      <div class="col-md-3 col-sm-6 numbers_1">
+        <img alt="3" src="images/numbers_3.png" class="pull-left img_nb">
+        <h4>612</h4><h5>POSITIVE FEEDBACKS</h5>
+      </div>
+      <div class="col-md-3 col-sm-6 numbers_1">
+        <img alt="4" src="images/numbers_4.png" class="pull-left img_nb">
+        <h4>735</h4><h5>HAPPY CLIENTS</h5>
+      </div>
+    </div>
+  </section>
+  <section class="container_fluid">
+    <div class="container" id="bp">
+      <h2 class="text-center aoa">Best Projects</h2>
+      <p class="text-center text_aoa">Donec orci sem, pretium ac dolor et, faucibus faucibus mauris. Etiam, pellentesque faucibus.<br/>
+        Vestibulum gravida volutpat ipsum non ultrices.</p>
+      <div class="row text-center" id="bp_img">
+        <div class="col-lg-4">
+          <img class="image_responsive" alt="5" src="images/lion_1.png" width="370" height="250">
+          <img class="image_responsive" alt="6" src="images/lion_2.png" width="370" height="250">
+          <img class="image_responsive" alt="7" src="images/lion_3.png" width="370" height="530">
+        </div>
+        <div class="col-lg-4">
+          <img class="image_responsive" alt="8" src="images/lion_4.png" width="370" height="530">
+          <div class="row" id="vr">
+            <div>
+              <h3>Vinil Record</h3>
+              <p id="photo">PHOTOGRAPHY</p>
+            </div>
+          </div>
+          <img class="image_responsive" alt="9" src="images/lion_5.png" width="370" height="250">
+        </div>
+        <div class="col-lg-4">
+          <img class="image_responsive" alt="10" src="images/lion_6.png" width="370" height="250">
+          <img class="image_responsive" alt="11" src="images/lion_7.png" width="370" height="530">
+          <img class="image_responsive" alt="12" src="images/lion_8.png" width="370" height="250">
+        </div>
+    </div>
+    </div>
+  </section>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 </body>
 </html>

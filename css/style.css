@@ -1,8 +1,162 @@
-body
-{
-  background-color: pink;
+body{
+  background-color: #636363;
+  margin: 0;
 }
 
-.container-fluid{
-  background-color: pink;
+.navbar-default {
+  background-color: #636363;
+  border: none;
+}
+
+#nav{
+  padding-top: 1%;
+  padding-left: 7%;
+  padding-right: 7%;
+  width: 100%;
+  margin: 0;
+}
+
+#banner{
+  padding-left: 7%;
+  padding-right: 7%;
+  width: 100%;
+  margin: 0;
+}
+
+#nba{
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 2px;
+  margin-top: 7%
+}
+
+#text{
+  font-family: 'Playfair Display', serif;
+  color: #ffffff;
+  letter-spacing: 2px;
+}
+
+.btn-circle.btn-lg {
+  width: 50px;
+  height: 50px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 25px;
+  background-color: #636363;
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+#icon_fleche{
+  margin-top: 10%;
+  margin-bottom: 4%;
+}
+/*fin header*/
+
+#about{
+  padding-left: 7%;
+  padding-right: 7%;
+  width: 100%;
+  margin: 0;
+  background-color: #f6f6f6;
+}
+
+.aoa{
+  margin-top: 5%;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+}
+
+.text_aoa{
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  color: #5f5f5f;
+  letter-spacing: 1px;
+  margin-top: 2%;
+}
+
+#sign{
+  margin-top: 2%;
+  margin-bottom: 6%;
+}
+/*fin about*/
+
+#numbers{
+  padding-left: 7%;
+  padding-right: 7%;
+  width: 100%;
+  margin: 0;
+  background-image: url('../images/numbers.png');
+}
+
+.numbers_1{
+  margin-top: 7%;
+  margin-bottom: 6%;
+}
+
+.img_nb{
+  margin-top: 4%;
+  margin-right: 8%;
+}
+
+h4{
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+h5{
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+}
+/*fin numbers*/
+
+#bp{
+  padding-left: 7%;
+  padding-right: 7%;
+  width: 100%;
+  margin: 0;
+  background-color: #f6f6f6;
+}
+
+h3{
+  margin-top: 5%;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+}
+
+#bp_img{
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+#photo{
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+}
+
+#bp img{
+  margin-bottom: 8%;
+}
+
+#vr{
+  padding-top: 22%;
+  padding-bottom: 28%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 8%;
+  background-color: #f9f9f9;
+}
+
+#vr:hover{
+  cursor: pointer;
+}
+
+.image_responsive{
+  max-width: none;
+  width: 100%;
+  height: auto;
 }
