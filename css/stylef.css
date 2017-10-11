@@ -8,6 +8,7 @@ body {
 
 cite {
 	font-family: 'Playfair Display';
+	padding-top: 30px;
 }
 
 footer {
@@ -29,6 +30,7 @@ i {
 q {
 	font-family: 'Playfair Display';
 	font-style: italic;
+	font-size: 1.5em;
 }
 
 textarea.form-control {
@@ -118,9 +120,12 @@ textarea.form-control {
 	padding-bottom: 30px;
 }
 
-.qt {
-	font-family: 'Playfair Display';
+.quote {
+	padding-right: 270px;
+	padding-left: 270px;
+	padding-top: 100px;
 }
+
 .test {
 	background-image: url('../images/focitation.png');
 	color: white;
