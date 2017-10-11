@@ -100,9 +100,8 @@ textarea.form-control {
 }
 
 .img {
-	margin-bottom: 20px;
-	padding-right: 5px;
-	padding-left: 5px;
+	padding-bottom: 15px;
+	padding-right: 1px;
 }
 .imge {
 	margin-right: 160px;
@@ -165,6 +164,19 @@ textarea.form-control {
 	font-family: 'Playfair Display', serif;
 	font-weight: bold;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .navbar-default {
