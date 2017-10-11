@@ -9,9 +9,7 @@
 
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
-    
- 	<link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,700" rel="stylesheet">
-  	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400i,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans|Playfair+Display|Playfair+Display:700" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/stylef.css">
@@ -122,20 +120,23 @@
 	<section class="container-fluid test">
 		<div class="container quote text-center">
 			<q class="qut">Outstanding job and exceeded all expectations. It was a pleasure to work with them on a sizable first project and am looking forward to start the next one asap.</q><br>
-			<cite>Michael Hopkins</cite>
-			<img src="images/btn.png" alt="bouton slide">
+			<div class="row">
+				<cite>Michael Hopkins</cite>
+			</div>
+			<div class="row">
+				<img src="images/btn.png" alt="bouton slide">
+			</div>
 		</div>
 	</section>
 
 <!-- Section Clients -->
-
 	<section class="container-fluid clients">
 		<div class="row">
-			<img src="images/logo1.png" alt="logo1" class="imge">
-			<img src="images/logo2.png" alt="logo2" class="imge">
-			<img src="images/logo3.png" alt="logo3" class="imge">
-			<img src="images/logo4.png" alt="logo4" class="imge" >
-			<img src="images/logo5.png" alt="logo5">
+			<img src="images/logo1.png" class="imge">
+			<img src="images/logo2.png" class="imge">
+			<img src="images/logo3.png" class="imge">
+			<img src="images/logo4.png" class="imge" >
+			<img src="images/logo5.png">
 		</div>
 	</section>
 
@@ -197,23 +198,23 @@
 				<form method="post" action="form.php">
 					<div class="form-group row">
   						<div class="col-md-6 col-lg-6">
-   							<label></label>
-   							<input type="text" class="form-control" placeholder="Your Name">
+   							<label for="name"></label>
+   							<input type="name" class="form-control" placeholder="Your Name">
   						</div>
   						<div class="col-md-6 col-lg-6">
-   							<label></label>
+   							<label for="email"></label>
    							<input type="email" class="form-control" placeholder="Your Email">
    						</div>
    					</div>
 
   					<div class="form-group">
-   						<label></label>
-    					<input type="text" class="form-control" placeholder="Your Title">
+   						<label for="title"></label>
+    					<input type="title" class="form-control" placeholder="Your Title">
   					</div>
 
   					<div class="form-group">
-  						<label></label>
-  						<textarea  class="form-control" placeholder="Your Comment" id="resize"></textarea>
+  						<label for="comment"></label>
+  						<textarea type="texte" class="form-control" placeholder="Your Comment" id="resize"></textarea>
   					</div>
 
   					<div class="form-group" id="btm">
@@ -237,7 +238,6 @@
 				<i class="fa fa-pinterest" aria-hidden="true"></i>
 				<i class="fa fa-instagram" aria-hidden="true"></i>
 			</section>
-		</div>
 
 			<section class="col-md-4">
 					<h3>Latest Twits</h3>
@@ -258,6 +258,7 @@
 						<img src="images/insta6.jpg" alt="3zebres" width="80" height="80" class="col-md-3 img col-xs-1">
 						<img src="images/insta7.jpg" alt="elephant" width="80" height="80" class="col-md-3 img col-xs-1">
 						<img src="images/insta8.jpg" alt="paysage" width="80" height="80" class="col-md-3 img col-xs-1">
+					</div>
 					</div>
 			</section>
 			
